@@ -1,0 +1,37 @@
+---
+layout: post
+title: 第一次尝试
+date: 2016-07-10
+categories: [Life]
+tags: 生活
+---
+
+>生活就是强奸，若不能抵抗，那便好好享受
+
+#随感
+
+##星期天
+
+1. 与老大联系了，远程协助搞了一下wordpress
+2. 自己现在在摸索markdown语言
+
+##星期一
+
+![2016-07-10-xing-qi-yi]({{ site.url }}/images/posts/2016-07-10-xing-qi-yi.jpg)
+
+**学校被淹的树**              *学校被淹的树*
+
+##星期二
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+表格的生成方式
+
+##星期三
+
+试一下分割线
+***
