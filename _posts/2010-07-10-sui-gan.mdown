@@ -1,4 +1,4 @@
----
+﻿---
 layout: post
 title: 第一次尝试
 date: 2016-07-10
@@ -16,8 +16,6 @@ tags: 生活
 2. 自己现在在摸索markdown语言
 
 ##星期一
-
-![2016-07-10-xing-qi-yi]({{ site.url }}/images/posts/2016-07-10-xing-qi-yi.jpg)
 
 **学校被淹的树**              *学校被淹的树*
 
