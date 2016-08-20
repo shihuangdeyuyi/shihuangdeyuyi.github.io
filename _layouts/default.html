@@ -38,7 +38,7 @@
       <nav>
         <a class="{% if page.category == 'about-zh' %} selected {% endif %}" href="/cn/">关于</a>
         <a class="{% if page.category == 'project-zh' %} selected {% endif %}" href="/cn/project">项目</a>
-        <a href="/resume/">简历</a>
+        <a class="{% if page.category == 'resume' %} selected {% endif %}" href="/cn/resume/">简历</a>
         <a class="{% if page.category == 'publication' %} selected {% endif %}" href="/publication/">出版</a>
         <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">博客</a>
 		    <a href="/timeline/">时间线</a>
@@ -47,7 +47,7 @@
       <nav>
         <a class="{% if page.category == 'about-zh' %} selected {% endif %}" href="/cn/">关于</a>
         <a class="{% if page.category == 'project-zh' %} selected {% endif %}" href="/cn/project">项目</a>
-	      <a href="/resume/">简历</a>
+	      <a class="{% if page.category == 'resume' %} selected {% endif %}" href="/cn/resume/">简历</a>
         <a class="{% if page.category == 'publication' %} selected {% endif %}" href="/publication/">出版</a>
         <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">博客</a>
 		    <a href="/timeline/">时间线</a>
@@ -56,7 +56,7 @@
       <nav>
         <a class="{% if page.category == 'about' %} selected {% endif %}" href="/">About</a>
         <a class="{% if page.category == 'project' %} selected {% endif %}" href="/project/">Project</a>
-	      <a href="/resume/">Resume</a>
+	      <a class="{% if page.category == 'resume' %} selected {% endif %}" href="/resume/">Resume</a>
         <a class="{% if page.category == 'publication' %} selected {% endif %}" href="/publication/">Publication</a>
         <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">Blog</a>
 		    <a href="/timeline/">Times</a>
@@ -68,7 +68,7 @@
           <a href="/">Fei Qin</a><br />
           <small>
             <em>
-              {% if page.url == '/cn/index.html' %}
+              {% if page.url == '/cn/index' %}
                 <a href="/cn">学生，江南大学</a>
               {% else %}
                 <a href="/">A student,Jiangnan University</a>
