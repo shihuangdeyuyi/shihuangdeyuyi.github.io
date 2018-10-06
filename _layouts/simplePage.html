@@ -36,7 +36,7 @@
       <nav>
         <a class="{% if page.category == 'about-zh' %} selected {% endif %}" href="/cn/">关于</a>
         <a class="{% if page.category == 'project-zh' %} selected {% endif %}" href="/cn/project">项目</a>
-        <a class="{% if page.category == 'resume' %} selected {% endif %}" href="/cn/resume/">简历</a>
+        <a class="{% if page.category == 'resume' %} selected {% endif %}" href="{{ site.url }}/feiqin_resume_cn.pdf">简历</a>
         <a class="{% if page.category == 'publication' %} selected {% endif %}" href="/publication/">出版</a>
         <a class="{% if page.category == 'award' %} selected {% endif %}" href="/award/">荣誉</a>
         <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">博客</a>
@@ -46,8 +46,7 @@
       <nav>
         <a class="{% if page.category == 'about-zh' %} selected {% endif %}" href="/cn/">关于</a>
         <a class="{% if page.category == 'project-zh' %} selected {% endif %}" href="/cn/project">项目</a>
-        <a class="{% if page.category == 'resume' %} selected {% endif %}" href="/cn/resume/">简历</a>
-        <!--<a href="/yuanyong_resume_cn.pdf">简历</a>-->
+        <a class="{% if page.category == 'resume' %} selected {% endif %}" href="{{ site.url }}/feiqin_resume_cn.pdf">简历</a>
         <a class="{% if page.category == 'publication' %} selected {% endif %}" href="/publication/">出版</a>
         <a class="{% if page.category == 'award' %} selected {% endif %}" href="/award/">荣誉</a>
         <a class="{% if page.category == 'blog' %} selected {% endif %}" href="/blog/">博客</a>
@@ -72,9 +71,9 @@
           <small>
             <em>
               {% if page.url == '/cn/index' %}
-                <a href="/cn">学生，江南大学。</a>
+                <a href="/cn">研发助理，东丽纤维研究所</a>
               {% else %}
-                <a href="/">A student,Jiangnan University.</a>
+                <a href="/">Research assistant, TFRC</a>
               {% endif %}
             </em>
           </small>
