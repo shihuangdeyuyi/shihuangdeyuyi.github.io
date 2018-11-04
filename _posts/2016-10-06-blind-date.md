@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      相亲
-subtitle:  
+subtitle:   相亲
 date:       2018-10-06
 author:     Qin Fei
 header-img: img/blind-date.jpg
