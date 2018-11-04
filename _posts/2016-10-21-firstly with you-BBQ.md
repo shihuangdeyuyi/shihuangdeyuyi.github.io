@@ -5,9 +5,8 @@ subtitle:   BBQ
 date:       2018-10-21
 author:     Qin Fei
 header-img: img/blind-date.jpg
-categories: 生活
-tag:
-    -[With you]
+categories: [生活]
+tag:[Life]
 ---
 # 开沙岛烧烤之行
 
